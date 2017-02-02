@@ -5,7 +5,7 @@ public class FindingSquareRoot {
 	{
 		//SquareRoot using Babylonian Approximation. For other methods check https://en.wikipedia.org/wiki/Methods_of_computing_square_roots
 		Scanner sc=new Scanner(System.in); 
-    int number=sc.nextInt();
+    		int number=sc.nextInt();
 		double t;
 		double sqrt=number/2;
 		do{
