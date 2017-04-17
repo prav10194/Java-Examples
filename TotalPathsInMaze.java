@@ -15,8 +15,8 @@ public class TotalPathsInMaze
 	
 	public static void main(String args[])
 	{
-		int m=5;
-		int n=5;
+		int m=5; //total rows
+		int n=5; //total columns
 		int[][] mat = new int[m + 1][n + 1];
 		for (int i = 0; i < m + 1; i++) {
 			for (int j = 0; j < n + 1; j++) {
